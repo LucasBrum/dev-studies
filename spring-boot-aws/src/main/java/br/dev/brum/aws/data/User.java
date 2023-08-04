@@ -5,11 +5,17 @@ public class User {
 	private String surname;
 	private String email;
 
-	private String getName() {
+	public User(String name, String surname, String email) {
+		this.name = name;
+		this.surname = surname;
+		this.email = email;
+	}
+
+	public String getName() {
 		return name;
 	}
 
-	private void setName(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
