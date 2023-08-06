@@ -15,8 +15,6 @@ ___
 ## Start 
 ___
 
-Para rodar os testes, rode o seguinte comando
-
 To start our application and invoke the API, run this code below in target folder::
 ```bash
   $ java -jar app.jar
