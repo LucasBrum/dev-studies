@@ -10,7 +10,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: .
-      Handler: br.dev.brum.aws.handler.LambdaHandler::handleRequest
+      Handler: com.baeldung.aws.handler.LambdaHandler::handleRequest
       Runtime: java11
       AutoPublishAlias: production
       SnapStart:

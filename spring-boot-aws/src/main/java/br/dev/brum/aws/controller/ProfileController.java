@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api/v1/")
 public class ProfileController {
 
 	@GetMapping(value = "users", produces = MediaType.APPLICATION_JSON_VALUE)
