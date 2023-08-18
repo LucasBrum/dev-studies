@@ -35,6 +35,11 @@ replay_pid*
 .springBeans
 .sts4-cache
 
+## target folder at any level of the project structue
+
+**/target
+/target 
+
 
 # Created by https://www.gitignore.io/api/git,java,maven,eclipse,windows
 
@@ -159,6 +164,8 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
+.mvn
+**/.mvn
 
 ### Windows ###
 # Windows thumbnail cache files
